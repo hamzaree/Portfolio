@@ -6,6 +6,6 @@ Workdir /Portfolio/src
 
 Copy . .
 
-Expose 3000
+Expose 80
 
 CMD ["start"]
