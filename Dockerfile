@@ -1,11 +1,6 @@
-From alpine:latest
+FROM nginx:alpine
+COPY . /usr/share/nginx/html
+EXPOSE 80
 
-Run mkdir -p /Portfolio/src
 
-Workdir /Portfolio/src
 
-Copy . .
-
-Expose 80
-
-CMD ["start"]
