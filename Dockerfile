@@ -1,6 +1,6 @@
 From alpine:latest
 
-Run mkdir /Portfolio/src
+Run mkdir -p /Portfolio/src
 
 Workdir /Portfolio/src
 
